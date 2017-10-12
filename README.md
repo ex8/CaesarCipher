@@ -13,14 +13,23 @@ c = JFBUQJAAB // Output
 If the character is A or Z, it will wrap around the alphabet accordingly.
 
 
-The encryption algorithmn goes through a series of string manipulations before it runs caesarify(). However all these methods are collected into their respective methods; encrypString(String s, int shift, int group) and decryptString(String s, int shift).
+The encryption algorithmn goes through a series of string manipulations before it runs caesarify(). However all these methods are collected into their respective methods; 
+```
+encrypString(String s, int shift, int group)
+decryptString(String s, int shift).
+```
 
-Encrypting a string using the entire functionality manually: 
+
+Encrypting a string using the entire functionality manually:
+```
 normalizeText(String s) -> obify(String s) -> caesarify(String s, int shift) -> groupify(String s, int n)
+```
 
 Ungroupify, Un-caesarify, Unobify
 Decrypting a string using the entire functionality manually (you must know shift key value used in caesarify when encrypting):
+```
 ungroupify(String s) -> caesarify(String s, int shift) -> unobify(String s)
+```
 
 # Credits 
 This project was taken from Microsoft MOOC
