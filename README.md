@@ -16,7 +16,7 @@ If the character is A or Z, it will wrap around the alphabet accordingly.
 The encryption algorithmn goes through a series of string manipulations before it runs caesarify(). However all these methods are collected into their respective methods; 
 ```
 encrypString(String s, int shift, int group)
-decryptString(String s, int shift).
+decryptString(String s, int shift)
 ```
 
 
